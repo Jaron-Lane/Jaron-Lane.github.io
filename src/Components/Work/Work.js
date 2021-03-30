@@ -18,7 +18,7 @@ export const ProjectPage = () => {
             <NavBar />
             <ScrollToTop />
             <div id="projects-all">
-                <h3 id="project-header">Recent Work</h3>
+                <h3 id="project-header">Recent Projects</h3>
                 <Container id="Container">
                     <Row noGutters id="margin">
                         <Col xl={6}>
@@ -33,8 +33,7 @@ export const ProjectPage = () => {
                             <Link to="/ourflix"><Button size="sm" id="btn">Case Study</Button></Link>
                         </Col>
                     </Row>
-                    <Row id="large-screen" noGutters >
-                    
+                    {/* <Row id="large-screen" noGutters >
                         <Col xl={6}>
                             <h4 className="project-title">Coding Cohort 43 Class Site</h4>
                             <p className="project-text date">December 2020 - 4 months into my coding journey</p>
@@ -46,9 +45,9 @@ export const ProjectPage = () => {
                                 <Image src={C43photo} width="100%" height="auto" />
                             </Link>
                         </Col>
-                    </Row>
+                    </Row> */}
                     <Row id="small-screen" noGutters>
-                    <Col xl={6}>
+                        <Col xl={6}>
                             <Link to="/cohort-site" >
                                 <Image src={C43photo} width="100%" height="auto" />
                             </Link>
