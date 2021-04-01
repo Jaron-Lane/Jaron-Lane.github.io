@@ -27,10 +27,10 @@ export const ProjectPage = () => {
                             </Link>
                         </Col>
                         <Col xl={6}>
-                            <h4 className="project-title">Ourflix</h4>
-                            <p className="project-text date">February 2021 - 6 months into my coding journey</p>
-                            <p className="project-text">It's like Tinder for Netflix. No more wasting hours deciding on what to watch.</p>
-                            <Link to="/ourflix"><Button size="sm" id="btn">Case Study</Button></Link>
+                            <h4 className="project-title">Terrace</h4>
+                            <p className="project-text date">March 2021 - NSS Full-Stack Project</p>
+                            <p className="project-text">Keep track of all your plants and their needs. Create rooms, plants, and how often you want them to be watered. Terrace does the rest!</p>
+                            <Link to="/ourflix"><Button size="sm" id="btn">See Github!</Button></Link>
                         </Col>
                     </Row>
                     {/* <Row id="large-screen" noGutters >
@@ -66,10 +66,10 @@ export const ProjectPage = () => {
                             </Link>
                         </Col>
                         <Col xl={6}>
-                            <h4 className="project-title">Laugh Track</h4>
-                            <p className="project-text date">November 2020 - 3 months into my coding journey</p>
-                            <p className="project-text">Designed to help comedians improve, organize and succeed.</p>
-                            <Link to="/laugh-track"><Button size="sm" id="btn">Case Study</Button></Link>
+                            <h4 className="project-title">Keeper</h4>
+                            <p className="project-text date">December 2020 - NSS Front-End Project</p>
+                            <p className="project-text">Designed to help the idealitic, over-achiever reach their goals.</p>
+                            <Link to="/laugh-track"><Button size="sm" id="btn">See Github!</Button></Link>
                         </Col>
                         
                     </Row>
