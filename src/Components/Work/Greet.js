@@ -34,26 +34,26 @@ export const GreetingSection = () => {
                     <Col md={8} lg={6}>
                         <Row>
                             <Col xl={12}>
-                                <h1 id="greet-title">I'm Richie Holsenback</h1>
+                                <h1 id="greet-title">Hey, I'm Jaron Lane</h1>
                             </Col>
                         </Row>
                         <Row>
                             <Col lg={12}>
                                 <p id="greet-blurb">
-                                    I’m a UI/UX designer and a front end developer. I am excited about the idea of working with
-                                    agile teams to create beautiful, responsive applications that are user focused and user tested.
+                                    I’m a full-stack web developer and recent grad of Nashville Software School. I am excited about the idea of working with
+                                    you and your team to grow and expand your vision. Hope to be in contact with you soon!
                                 </p>
                             </Col>
                         </Row>
                         <Row id="center-mid">
                             <Col xs={2} lg={2}>
-                                <a href="https://www.linkedin.com/in/richie-holsenback/" target="_blank" rel="noreferrer">
+                                <a href="https://www.linkedin.com/in/jaron-lane/" target="_blank" rel="noreferrer">
                                     <svg id="icon-svg" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="#FFF6E9"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.27 20.1H3.65V9.24h3.62V20.1zM5.47 7.76h-.03c-1.22 0-2-.83-2-1.87 0-1.06.8-1.87 2.05-1.87 1.24 0 2 .8 2.02 1.87 0 1.04-.78 1.87-2.05 1.87zM20.34 20.1h-3.63v-5.8c0-1.45-.52-2.45-1.83-2.45-1 0-1.6.67-1.87 1.32-.1.23-.11.55-.11.88v6.05H9.28s.05-9.82 0-10.84h3.63v1.54a3.6 3.6 0 0 1 3.26-1.8c2.39 0 4.18 1.56 4.18 4.89v6.21z" />
                                     </svg>
                                 </a>
                             </Col>
                             <Col xs={2} lg={2}>
-                                <a href="mailto:richieholsenback@gmail.com" target="_blank" rel="noreferrer">
+                                <a href="mailto:jaronlaneis@gmail.com" target="_blank" rel="noreferrer">
                                     <svg id="icon-svg" xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke=" #FFF6E9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
                                     </svg>
                                 </a>
@@ -86,7 +86,7 @@ export const GreetingSection = () => {
                         <h2 id="greet-sub-titles">“If you just focus on getting better, and not being the best, you have such a good time” -James Acaster</h2>
                     </Col>
                 </Row>
-                <Row id="sub-section">
+                {/* <Row id="sub-section">
                     <Col lg={8}>
                         <h2 id="greet-sub-titles">User focused. User Tested. User Approved.</h2>
                         <p>Design should benefit the user. I have developed a passion for creating websites and applications that have the user and their goals in mind from the very beginning. Conducting research about the target user base, creating user personas and journey maps, making experience maps and interaction flows. Designing wireframes, mockups, and prototypes that have information architecture, reactive design, and accessibility in mind. Bringing the site to life using HTML, CSS, Javascript, ReactJS, and Scss. Knowing I can help a user succeed in their goals with my knowledge and skill is an incredible feeling.</p>
@@ -104,7 +104,7 @@ export const GreetingSection = () => {
                         <p>I'm focused on building something simple first and going from there. Build a skateboard. It's simple, but it accomplishes the goal. Then keep working until you have a scooter. Keep working until you've got a motorcycle. Don't stop until you've got a Lamborghini.</p>
                         <Link to="/work"><Button size="xl" id="btn">See My Skateboards</Button></Link>
                     </Col>
-                </Row>
+                </Row> */}
             </Container>
         </div >
     )
