@@ -11,21 +11,21 @@ export const ContactSection = () => {
                 <Row>
                     <Col m={12}>
                         <p>
-                            I’m excited to make excellent, user focused websites with you and your team.
-                            Let’s get in touch!
-                </p>
+                            I’m excited to continue my web development journey with you.
+                            Let's dream something up together!
+                        </p>
                     </Col>
                 </Row>
                 <Row>
                     <Col >
-                        <a href="https://www.linkedin.com/in/richie-holsenback/" target="_blank" rel="noreferrer" >
+                        <a href="https://www.linkedin.com/in/jaron-lane/" target="_blank" rel="noreferrer" >
                             <Button id="btn">
                                 LinkedIn
                             </Button>
                         </a>
                     </Col>
                     <Col >
-                        <a href="mailto:richieholsenback@gmail.com" target="_blank" rel="noreferrer" >
+                        <a href="mailto:jaronlaneis@gmail.com" target="_blank" rel="noreferrer" >
                             <Button id="btn">
                                 Email
                             </Button>
