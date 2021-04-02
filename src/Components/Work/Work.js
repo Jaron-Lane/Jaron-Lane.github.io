@@ -22,15 +22,16 @@ export const ProjectPage = () => {
                 <Container id="Container">
                     <Row noGutters id="margin">
                         <Col xl={6}>
-                            <Link to="/ourflix" >
+                            {/* <Link to="/ourflix" > */}
                                 <Image src={ourflix} width="100%" height="auto" />
-                            </Link>
+                            {/* </Link> */}
                         </Col>
                         <Col xl={6}>
-                            <h4 className="project-title">Ourflix</h4>
-                            <p className="project-text date">February 2021 - 6 months into my coding journey</p>
-                            <p className="project-text">It's like Tinder for Netflix. No more wasting hours deciding on what to watch.</p>
-                            <Link to="/ourflix"><Button size="sm" id="btn">Case Study</Button></Link>
+                            <h4 className="project-title">Terrace</h4>
+                            <p className="project-text date">March 2021 - NSS Full-Stack Project</p>
+                            <p className="project-text">Keep track of all your plants and their needs. Create rooms, plants, and how often you want them to be watered. Terrace does the rest!</p>
+                            <a href="https://github.com/Jaron-Lane/terrace-client"><Button size="sm" id="btn">See Client-Side Github!</Button></a>
+                            <a href="https://github.com/Jaron-Lane/terrace-server"><Button size="sm" id="btn">See Server-Side Github!</Button></a>
                         </Col>
                     </Row>
                     {/* <Row id="large-screen" noGutters >
@@ -61,15 +62,15 @@ export const ProjectPage = () => {
                     </Row>
                     <Row id="margin" noGutters>
                         <Col xl={6}>
-                            <Link to="/laugh-track" >
+                            {/* <Link to="/laugh-track" > */}
                                 <Image src={LTphoto} width="100%" height="auto" />
-                            </Link>
+                            {/* </Link> */}
                         </Col>
                         <Col xl={6}>
-                            <h4 className="project-title">Laugh Track</h4>
-                            <p className="project-text date">November 2020 - 3 months into my coding journey</p>
-                            <p className="project-text">Designed to help comedians improve, organize and succeed.</p>
-                            <Link to="/laugh-track"><Button size="sm" id="btn">Case Study</Button></Link>
+                            <h4 className="project-title">Keeper</h4>
+                            <p className="project-text date">December 2020 - NSS Front-End Project</p>
+                            <p className="project-text">Designed to help the idealitic, over-achiever reach their goals.</p>
+                            <a href="https://github.com/Jaron-Lane/keeper"><Button size="sm" id="btn">See Github!</Button></a>
                         </Col>
                         
                     </Row>
