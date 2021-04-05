@@ -5,9 +5,9 @@ import { NavBar } from "../NavBar/NavBar";
 // import "../scss/_work.scss"
 import "../scss/_greet.scss"
 import "../scss/_variables.scss"
-import LTphoto from '../../images/Standup.png'
+import LTphoto from '../../images/noun_Date.png'
 import C43photo from '../../images/cap.png'
-import ourflix from '../../images/television.png'
+import ourflix from '../../images/noun_Plant.png'
 import Journalphoto from '../../images/Diary.png'
 import { Link } from "react-router-dom";
 import ScrollToTop from "./Greet";

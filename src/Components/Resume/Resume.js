@@ -5,7 +5,7 @@ import { TechExp } from "./TechExp"
 import "../scss/_resume.scss"
 import { TechStack } from "./TechStack"
 import { NavBar } from "../NavBar/NavBar"
-import resume from "../../images/RichieHolsenbackResumeV3.pdf"
+import resume from "../../images/JaronLaneResume.pdf"
 
 export const Resume = () => {
     return (
